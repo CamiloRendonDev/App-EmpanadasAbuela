@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".Pedido">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_gravity="center"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/descripcion"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/producto"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Titulo_pedido"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cuantasempanadas"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Titulo_cuantas"
+                android:textColor="#ffff"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/promocion"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/subTitulo_promocion"
+                android:textColor="#ffff"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvArracacha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="20sp"
+                    android:text="@string/pedidoArracacha"
+                    android:textColor="#ffff" />
+
+                <EditText
+                    android:id="@+id/ET_Arracacha"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColorHint="@color/colorblanco"
+                    android:textSize="20sp"
+                    android:text="@string/inicializarENcero"
+                    android:inputType="number"
+                    android:textColor="#ffff"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvArroz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="20sp"
+                    android:text="@string/pedidoArroz"
+                    android:textColor="#ffff" />
+
+                <EditText
+                    android:id="@+id/ET_Arroz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/colorblanco"
+                    android:text="@string/inicializarENcero"
+                    android:inputType="number"
+                    android:textColor="#ffff"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvPapa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="20sp"
+                    android:text="@string/pedidoPapa"
+                    android:textColor="#ffff" />
+
+                <EditText
+                    android:id="@+id/ET_Papa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColorHint="@color/colorblanco"
+                    android:textSize="20sp"
+                    android:text="@string/inicializarENcero"
+                    android:inputType="number"
+                    android:textColor="#ffff"
+                    tools:ignore="LabelFor"
+                    android:importantForAutofill="no"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="20sp"
+                    android:text="@string/totalempanadas"
+                    android:textColor="#ffff" />
+
+                <TextView
+                    android:id="@+id/TV_total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColor="#ffff"
+                    android:textColorHint="@color/colorblanco"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Precio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textSize="20sp"
+                    android:text="@string/valor"
+                    android:textColor="#ffff" />
+
+                <TextView
+                    android:id="@+id/TV_Precio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:textColorHint="@color/colorblanco"
+                    android:textSize="20sp"
+                    android:textColor="#ffff" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/nota"
+                android:textColor="@color/colorRojoclaro"
+                android:textSize="15sp" />
+            <Button
+                android:id="@+id/btnCalcular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="5dp"
+                android:text="@string/Calcular"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/TVdomicilio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:text=""
+                android:textColor="@color/colorRojo"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnPedido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="16dp"
+                android:onClick="Hacerpedido"
+                android:text="@string/Hacerpedido_2"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

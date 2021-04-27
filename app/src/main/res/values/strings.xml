@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">El legado de mi abuela</string>
+    <string name="descripcion"> </string>
+
+
+    //pagina principal
+    <string name="HazTupedido">Haz  tu pedido</string>
+    <string name="Producto">Conoce Nuestro Producto</string>
+    <string name="Nosotros">Nuestra Historia</string>
+    <string name="Contacto">Contáctenos</string>
+
+    //Historia
+
+    <string name="NuestraHistoria">En 1982 una mujer de andes Antioquia, empoderada de la vida y su familia inicia su negocio de venta de empanadas; estas se dieron a conocer en todo Andes por su buena sazón y algo muy peculiar, su deliciosa empanada de arracacha.
+
+Con el tiempo y el reconocimiento que fue adquiriendo logró firmar contratos con diferentes negocios del pueblo; sus hijos fueron parte esencial en el crecimiento del negocio, ya que eran los encargados de entregar cada uno de los pedidos.
+
+La disciplina y el amor fueron factores importantes que influyeron considerablemente en su evolución. El amor que como familia se brindaban era reflejado a sus clientes, lo cual creó un interés y una fidelidad a la hora de negociar y servir. Y la disciplina, que los ayudó a ser siempre perseverantes para el logro del éxito.
+
+El legado de mi abuela es un reconocimiento a todo ese arduo trabajo que fue delegado entre generaciones y la sazón que fue origen del arte de aquella gran mujer, que es mi abuela.</string>
+
+    <string name="HacerPedido"> Haz Tu Pedido</string>
+
+    // Productos
+
+    <string name="Titulo_producto"> Conoce nuestros productos</string>
+    <string name="Arracacha"> Empanada de Arracacha</string>
+    <string name="ingredientes_arracacha"> Ingredientes: El ingrediente principal es la arracacha es como un ayuca blanca y sabe delicioso. El valor por unidad es de 2.700$</string>
+    <string name="Arroz"> Empanada de Arroz</string>
+    <string name="ingredientes_arroz"> Ingredientes: Esta empanada es la tradicional que todos alguna vez hemos probado, pero recuerda que esta cuenta con el toque secreto el cual heredamos de nuestra abuela El valor por unidad es de 2.400$</string>
+    <string name="papa"> Empanada de Papa</string>
+    <string name="ingredientes_papa"> Ingredientes: esta empanada cuenta con una deliciosa combinacion de papa y carne la cual le da un sabor orginial y unico El valor por unidad es de 2.400$</string>
+
+    // realizar pedido
+    <string name="pedidoArracacha"> Arracacha x 2700 $</string>
+    <string name="pedidoArroz"> Arroz x 2400 $</string>
+    <string name="pedidoPapa"> Papa x 2400 $</string>
+    <string name="Titulo_pedido"> Haz tu pedido</string>
+    <string name="Titulo_cuantas"> ¿Cuantas Empanadas vas a querer?</string>
+    <string name="Calcular"> 1- Calcular Precio</string>
+    <string name="Hacerpedido_2"> 2- Haz tu pedido</string>
+    <string name="totalempanadas"> Total de empanadas:</string>
+    <string name="valor"> Valor:</string>
+    <string name="inicializarENcero"> 0</string>
+    <string name="nota"> Nota: Primero debes calcular el precio y despues realizar tu pedido</string>
+    <string name="subTitulo_promocion"> Obten descuentos a partir de 12 empanadas </string>
+
+
+
+
+    // datos personales
+    <string name="titulodatos"> Rellena todos los campos</string>
+    <string name="Nombre"> Nombre</string>
+    <string name="Numerodecel"> Número de celular</string>
+    <string name="Numerofijo"> Número fijo (Opcional)</string>
+    <string name="Direccion">Dirección completa</string>
+    <string name="Hora">Hora</string>
+    <string name="Fecha">Fecha</string>
+    <string name="Realizarpedido">Realizar Pedido</string>
+
+    //menu
+    <string name="nuestroface">Nuestro Facebook</string>
+    <string name="nuestroInsta">Nuestro Instagram</string>
+    <string name="nuestrotel">telefono</string>
+
+    //contactenos
+    <string name="Titulodecontacto">Nuestras Redes Sociales</string>
+    <string name="Facebook">Nuestro Facebook</string>
+    <string name="Instagram">Nuestro Instagram</string>
+    <string name="WhatsApp">Nuestro WhatsApp</string>
+    <string name="telefono">Llamanos</string>
+
+
+
+</resources>

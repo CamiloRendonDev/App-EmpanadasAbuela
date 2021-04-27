@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/miFacebook"
+        android:icon="@drawable/ic_llamar"
+        android:title="@string/nuestroface"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/miInstagram"
+        android:icon="@drawable/ic_llamar"
+        android:title="@string/nuestroInsta"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/miWhatsapp"
+        android:icon="@drawable/ic_llamar"
+        android:title="@string/WhatsApp"
+        app:showAsAction="collapseActionView" />
+
+    <item
+        android:id="@+id/mitel"
+        android:icon="@drawable/ic_llamar"
+        android:title="@string/nuestrotel"
+        app:showAsAction="ifRoom" />
+
+</menu>

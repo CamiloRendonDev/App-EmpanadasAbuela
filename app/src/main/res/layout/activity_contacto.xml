@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".contacto">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="150dp"
+                android:contentDescription="@string/descripcion"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/titulocontacto"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/Titulodecontacto"
+                android:textColor="#ffff"
+                android:textSize="26sp" />
+
+            <TextView
+                android:id="@+id/Tvfacebook"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/nuestroface"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/Buttonfacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:contentDescription="@string/descripcion"
+                app:srcCompat="@mipmap/ic_facebook_foreground" />
+
+            <TextView
+                android:id="@+id/Tvinstagram"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/nuestroInsta"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/Buttoninstagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:contentDescription="@string/descripcion"
+                app:srcCompat="@mipmap/ic_instagram_foreground" />
+
+            <TextView
+                android:id="@+id/TvWhatsapp"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/WhatsApp"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/ButtonWhatsapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:contentDescription="@string/descripcion"
+                app:srcCompat="@mipmap/ic_whatsapp_foreground" />
+
+            <TextView
+                android:id="@+id/Tvtelefono"
+                android:layout_width="wrap_content"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/nuestrotel"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/Buttontelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+                android:contentDescription="@string/descripcion"
+                app:srcCompat="@mipmap/ic_telefono_foreground" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

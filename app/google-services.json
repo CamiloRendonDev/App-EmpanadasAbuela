@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346082016625",
+    "firebase_url": "https://el-legado-abuelav2.firebaseio.com",
+    "project_id": "el-legado-abuelav2",
+    "storage_bucket": "el-legado-abuelav2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346082016625:android:d8e26a7cd680e715a94ad0",
+        "android_client_info": {
+          "package_name": "com.example.empanada_de_mi_abuela_v2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346082016625-52b933slt05oge5o263o4ofust1log5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.empanada_de_mi_abuela_v2",
+            "certificate_hash": "5cc49317bc0fd931a3e08291f02f49005287ef18"
+          }
+        },
+        {
+          "client_id": "346082016625-4a4t62fcfbnj86boqliaa0fusqhb3d6i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrwsBDumTAZKm7wQjrB-w8xNgN71ccgqw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346082016625-4a4t62fcfbnj86boqliaa0fusqhb3d6i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

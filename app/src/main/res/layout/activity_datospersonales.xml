@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".datospersonales">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.615"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="150dp"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:contentDescription="@string/descripcion" />
+
+            <TextView
+                android:id="@+id/titulodatos"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="76dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/titulodatos"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                />
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:textColorHint="@color/colorblanco"
+                android:textColor="@color/colorblanco"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Nombre"
+                android:inputType="textCapWords|textCapSentences"
+                android:textSize="24sp"
+                />
+
+
+            <EditText
+                android:id="@+id/celular"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:textColorHint="@color/colorblanco"
+                android:textColor="@color/colorblanco"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Numerodecel"
+                android:inputType="number"
+                android:textSize="24sp"
+                />
+
+            <EditText
+                android:id="@+id/fijo"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:textColorHint="@color/colorblanco"
+                android:textColor="@color/colorblanco"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Numerofijo"
+                android:inputType="number"
+                android:textSize="24sp"
+                />
+
+            <EditText
+                android:id="@+id/direccion"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/colorblanco"
+                android:textColor="@color/colorblanco"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:textSize="24sp"
+                android:hint="@string/Direccion"
+                android:inputType="textCapWords|textCapSentences"
+                />
+
+            <TextView
+                android:id="@+id/Fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="16dp"
+                android:textColorHint="@color/colorblanco"
+                android:textColor="@color/colorblanco"
+                android:layout_marginRight="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:textSize="24sp"
+                android:hint="@string/Fecha"
+                android:focusable="false"
+                android:clickable="true"
+                android:maxLines="1"
+                android:inputType="date" />
+
+            <TextView
+                android:id="@+id/Hora"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:textColorHint="@color/colorblanco"
+                android:textColor="@color/colorblanco"
+                android:textSize="24sp"
+                android:hint="@string/Hora"
+                android:focusable="false"
+                android:clickable="true"
+                android:maxLines="1"
+                android:inputType="time" />
+
+            <Button
+                android:id="@+id/btnSolicitarP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="@string/Realizarpedido"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColorHint="@color/colorblanco" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
